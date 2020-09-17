@@ -2,6 +2,7 @@
 
 ### 2. CONTACTS: ###
 
+* Phone: +375 29 163-89-31
 * E-mail: il.strelcov@gmail.com
 * Telegram: @ilya_strelcov
 
