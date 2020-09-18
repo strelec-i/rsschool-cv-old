@@ -1,41 +1,41 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #000;
 }
 
-li{
+li {
     list-style: none;
     margin-bottom: 5px;
 }
 
-p{
+p {
     text-align: center;
     margin-bottom: 15px;
-}     
+}
 
-.container{
+.container {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
-header{
+header {
     padding: 50px 0;
     background-color: #f7f7f5d7;
 }
-.header-inner{
+.header-inner {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.photo__author{
+.photo__author {
     display: block;
     max-width: 100%;
     width: 200px;
@@ -43,37 +43,59 @@ header{
     border-radius: 50%;
     object-fit: cover;
 }
-.contacts__name{
+.contacts__name {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.contacts__social li{
+.contacts__social li {
     margin-bottom: 10px;
 }
 
-section{
+section {
     padding: 50px 0;
 }
-.section-title{
+.section-title {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
     text-align: center;
 }
-.skills{
+.skills {
     display: flex;
     justify-content: center;
 }
-.skills__list li{
+.skills__list li {
     list-style: square;
 }
-.courses{
+.courses {
     display: flex;
     justify-content: center;
 }
-.courses__list li{
+.courses__list li {
     list-style: square;
 }
-.gray{
+.gray {
     background-color: #f7f7f5d7;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #ccc;
+}
+
+@media (max-width: 575px) {
+    body {
+        font-size: 16px;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    .header-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .photo {
+        margin-bottom: 20px;
+    }
 }
