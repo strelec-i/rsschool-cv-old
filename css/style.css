@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+}
+li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header{
+    padding: 50px 0;
+    background-color: #f7f7f5d7;
+}
+.header-inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.photo__author{
+    display: block;
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.contacts__name{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contacts__social li{
+    margin-bottom: 10px;
+}
