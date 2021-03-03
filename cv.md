@@ -25,13 +25,13 @@ Every day I improve and develop in this direction
 ### 5. CODE EXAMPLES:
 
 ```
-    function max(array) {
-        if (!array || array.length === 0) {
-            return 0;
-        } else {
-            return Math.max.apply(null, array);
-        }
-    };
+function max(array) {
+    if (!array || array.length === 0) {
+        return 0;
+    } else {
+        return Math.max.apply(null, array);
+    }
+};
 
 ```
 
